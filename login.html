@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/login.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type='text/javascript' src="login.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Alquilapp</title>
 </head>
 <body>
-    <div>
-        <img src="" alt="">
-        <input type="text" placeholder="Nombre de usuario">
-        <input type="text" placeholder="Contraseña">
-        <a href="dashboard.html">Entrar</a>
-    </div> 
+    <div class="container">
+        <div class="welcome">
+            <div class="logo">   
+            <img src="styles/images/LOGO-ALQUILAPP.png" alt="">
+            </div>    
+            <span>Bienvenidos</span>
+            <!-- <div>
+                <p>
+                Queremos un mundo mejor, alquila aquellas cosas que tengas en tu casa pero que ya no uses con tanta frecuencia, alguien puede necesitarlas por solo unos días. </p>
+                <p>
+                Generemos un futuro más sustentable, cuidando el medio ambiente con la reutilización de productos, enlazando a personas desde diferentes.</p>
+                <p> 
+                Alquila tu producto a un precio justo. Creamos una economía sustentable. </p>
+            </div> -->
+        </div>
+        <div class="containerLogin">
+            
+            <input class="inputText" type="text" id="email" placeholder="Email de usuario">
+            <input class="inputText" type="password" id="password" placeholder="Contraseña">
+            <a href='#'><p>¿Olvidaste tu clave?</p></a>
+            <a href="#" id="loginButton" class="buttonEnter" onclick="validateUser()" disabled>Entrar</a>
+        </div> 
+    </div>
 </body>
 </html>
