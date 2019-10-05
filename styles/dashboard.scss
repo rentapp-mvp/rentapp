@@ -1,18 +1,81 @@
-@mixin backgroundGradient {
-    background: #e9d362;
-    /* background: -webkit-linear-gradient(to right, #D48O3C, #F3E22B);
-    background: linear-gradient(to right, #D48O3C, #F3E22B);    */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+
+@mixin backgroundGradient {
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgb(254,182,69)), color-stop(100%, rgb(241,231,103)));
+   background: -webkit-linear-gradient(left, rgb(254,182,69) 0%, rgb(241,231,103) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 400px;
+    max-width: 1180px;
+  }
 
 body{
     @include backgroundGradient();
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    a{
+        text-decoration: none;
+        color: grey;
+    }
+}
+
+header{
+    display: flex;
+    align-items: center;
+
 }
 
 .logo{
-    width: 5%;
+    width: 10%;
     padding: 2%;
 }
 
 .search{
-    
+    margin-left: 2%;
+    width: 60%;
+    height: 30%;
 } 
+
+.productsLists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    li{
+        list-style: none;
+    }
+    .imageSeller{
+        width: 30%;
+    }
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0% 0% 15%;
+}
