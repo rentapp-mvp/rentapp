@@ -14,59 +14,53 @@
     <title>Modal</title>
 </head>
 <body>
-    <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
     Product
-   </button><!-- Modal -->
+   </button>
    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
+          <h5 class="modal-title">Datos del producto</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-            <div class="image"> 
-                <img src="styles/images/vladislav-bulatov-orVi6XachOg-unsplash (1).jpg" width="200px" height="200px"/>
-            </div>
-            <div class="info-product">
-                <h5 class="modal-title" id="exampleModalLongTitle">Taladro</h5>
-                <h3>$45</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page</p>
-            </div>
-            <div>
-                <span>5 <i class="far fa-star"></i></span>
-                <p>Vendedor</p>
-            </div>
-            <div>
-                <div>
-                    <p>Desde</p>
-                    <select class="">
-                        <option></option>
-                        <option></option>
-                    </select>
-                    <select>
-                        <option></option>
-                        <option></option>
-                    </select>
+            <div class="product">
+                <div class="image"> 
+                        <img src="styles/images/vladislav-bulatov-orVi6XachOg-unsplash (1).jpg" width="200px" height="200px"/>
                 </div>
-                <div>
+                <div class="info-product">
+                    <h3 class="title" id="exampleModalLongTitle">Taladro</h3>
+                    <h5>$45</h5>
+                    <div class="info-renter">
+                        <p class="ranking">5 <i class="fas fa-star"></i></p>
+                        <p class="name-renter"><i class="fas fa-user"></i>Martín López</p>
+                    </div>
+                    <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                </div>
+            </div>
+            <div class="from-container">
+                <div class="from-to">
+                    <p>Desde</p>
+                    <div>
+                        <input placeholder="Mes" class="month">
+                        <input placeholder="Día" class="date">
+                    </div>
+                </div>
+                <div class="from-to">
                     <p>Hasta</p>
-                    <select class="">
-                        <option></option>
-                        <option></option>
-                    </select>
-                    <select>
-                        <option></option>
-                        <option></option>
-                    </select>
+                    <div>
+                        <input placeholder="Mes" class="month">
+                        <input placeholder="Día" class="date">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-warning">Quiero alquilar</button>
         </div>
       </div>
     </div>

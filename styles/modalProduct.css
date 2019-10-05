@@ -1,0 +1,83 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: grey;
+}
+
+.modal-title {
+  color: #747171;
+  margin: 0 10px;
+}
+
+.modal-body .product {
+  display: flex;
+  flex-direction: row;
+}
+.modal-body .product .info-product {
+  margin: 0 10px;
+}
+.modal-body .product .info-product .description {
+  text-align: justify;
+}
+.modal-body .product .info-product .title {
+  margin: 5px 0;
+}
+.modal-body .product .info-product h5 {
+  color: #4caf50 !important;
+}
+.modal-body .product .info-product .info-renter {
+  display: flex;
+  flex-direction: row;
+}
+.modal-body .product .info-product .info-renter .ranking {
+  width: 25%;
+}
+.modal-body .product .info-product .info-renter .ranking i {
+  margin: 0 5px;
+  color: #D4803C;
+}
+.modal-body .product .info-product .info-renter .name-renter {
+  color: #747171;
+}
+.modal-body .product .info-product .info-renter .name-renter i {
+  margin: 0 10px;
+}
+.modal-body .product .image {
+  margin: 10px 10px;
+}
+.modal-body .product .image img {
+  opacity: 0.5;
+  transition: all 0.2s ease-out;
+}
+.modal-body .product .image img:hover {
+  transition: all 0.4s ease-in;
+  opacity: 1;
+}
+.modal-body .from-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+.modal-body .from-container .from-to {
+  margin: 0 10px;
+}
+.modal-body .from-container .from-to p {
+  text-align: center;
+}
+.modal-body .from-container .from-to div {
+  display: flex;
+  justify-content: center;
+}
+.modal-body .from-container .from-to div .month {
+  width: 50%;
+  border-radius: 2px;
+  margin: 0 5px;
+}
+.modal-body .from-container .from-to div .date {
+  width: 20%;
+  border-radius: 2px;
+  margin: 0 5px;
+}
+
+/*# sourceMappingURL=modalProduct.css.map */
