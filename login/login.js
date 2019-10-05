@@ -1,5 +1,5 @@
 const user = 
-    {email: 'juanpie@gmail.com',
+    {email: 'martinlopez@gmail.com',
     password: '1234'}
 
 const validateUser = () => {

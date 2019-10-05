@@ -1,12 +1,10 @@
-@import "_reset.scss";
-@import "_variables.scss";
+@import "../styles/reset";
+@import "../styles/variables";
 
 body {
     background: -webkit-gradient(left top, right top, color-stop(0%, rgb(254,182,69)), color-stop(100%, rgb(241,231,103)));
    background: -webkit-linear-gradient(left, rgb(254,182,69) 0%, rgb(241,231,103) 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
-   
-
 }
 .container{
     background-color: $white;

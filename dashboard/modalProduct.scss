@@ -1,7 +1,11 @@
+@import "../styles/reset";
+@import "../styles/variables";
+
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $roboto;
     color:grey;
 }
+
 .modal-title{
     color: rgb(116, 113, 113);
     margin: 0 10px;
