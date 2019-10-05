@@ -16,14 +16,6 @@
   max-width: 1180px;
 }
 
-body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-body a {
-  text-decoration: none;
-  color: grey;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -33,6 +25,18 @@ header {
 .logo {
   width: 10%;
   padding: 2%;
+}
+
+.fa-search {
+  color: #D4803C;
+  font-size: 25px;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 20px;
+  width: 20px;
+  margin-left: 6%;
 }
 
 .search {
@@ -57,7 +61,16 @@ header {
 .productContainer {
   margin: 30px 0;
 }
+.productContainer .catTitle {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #7E807E;
+}
 
+.productsLists {
+  display: flex;
+  justify-content: space-around;
+}
 .productsLists ul {
   width: 100%;
   display: flex;
@@ -68,19 +81,32 @@ header {
   flex-direction: column;
   padding: 10px;
 }
-.productsLists ul .imageSeller {
-  width: 90%;
+.productsLists ul .imgContainer {
+  width: 300px;
+  height: 300px;
+}
+.productsLists ul .imgContainer .imageSeller {
+  width: 100%;
+  height: 100%;
   margin-bottom: 5px;
 }
-.productsLists ul a {
-  font-size: 20px;
-}
 .productsLists ul p {
-  font-size: 18px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #c7c7c7;
+  margin: 5px;
 }
-
-.catTitle {
-  font-size: 30px;
+.productsLists ul span {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #c7c7c7;
+  margin: 5px;
+}
+.productsLists .more {
+  font-family: "Roboto", sans-serif;
+  color: #F3E22B;
+  font-size: 15px;
+  padding: 2px;
 }
 
 .navBar {
@@ -92,6 +118,8 @@ header {
   border-radius: 15px;
   width: 100%;
   padding: 1% 0% 1% 0%;
+  font-family: "Roboto", sans-serif;
+  color: #7E807E;
 }
 
 /*# sourceMappingURL=dashboard.css.map */

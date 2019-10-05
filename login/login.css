@@ -15,74 +15,13 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f1e767", endColorstr="#feb645", GradientType=1 );
 }
 
-.container {
-  background-color: #ffffff;
-  margin: 20px auto;
-  width: 70%;
-  border-radius: 10%;
-  padding: 10px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected \";\".\a    \2577 \a 13 \2502  $roboto: 'Roboto', sans-serif;\a    \2502         ^\a    \2575 \a   styles\\_variables.scss 13:8  root stylesheet\a   styles\\login.scss 2:9        root stylesheet";
 }
-.container .welcome .logo {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-}
-.container .welcome .logo img {
-  width: 30%;
-}
-.container .welcome span {
-  color: #7E807E;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-direction: column;
-  align-items: center;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 10px;
-  font-family: "Roboto", sans-serif;
-}
-.container .welcome div {
-  margin: auto;
-  width: 70%;
-}
-.container .welcome div p {
-  color: #7E807E;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-}
-.container .containerLogin {
-  margin: auto;
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
-}
-.container .containerLogin .inputText {
-  display: flex;
-  margin-bottom: 30px;
-  width: 100%;
-  font-family: "Roboto", sans-serif;
-  padding: 10px;
-}
-.container .containerLogin a p {
-  margin-bottom: 30px;
-  color: #7E807E;
-}
-.container .containerLogin .buttonEnter {
-  border: 1px solid #2CC24A;
-  font-size: 20px;
-  font-weight: bold;
-  color: #ffffff;
-  padding: 10px;
-  background-color: #2CC24A;
-  font-family: "Roboto", sans-serif;
-}
-
-/*# sourceMappingURL=login.css.map */
