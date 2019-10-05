@@ -19,11 +19,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-@mixin backgroundGradient {
+/* @mixin backgroundGradient {
     background: -webkit-gradient(left top, right top, color-stop(0%, rgb(254,182,69)), color-stop(100%, rgb(241,231,103)));
    background: -webkit-linear-gradient(left, rgb(254,182,69) 0%, rgb(241,231,103) 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
-}
+} */
 
 .container{
     margin: 0 auto;
@@ -33,7 +33,7 @@ time, mark, audio, video {
   }
 
 body{
-    @include backgroundGradient();
+    // @include backgroundGradient();
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     a{
@@ -45,6 +45,7 @@ body{
 header{
     display: flex;
     align-items: center;
+    align-content: space-around;
 
 }
 
@@ -57,21 +58,31 @@ header{
     margin-left: 2%;
     width: 60%;
     height: 30%;
+    background-color: #f4f6f6;
+    border: 0;
+    padding-top: 3%;
+    border-radius: 5px;
 } 
+
+.searcFont{
+    margin-left:5%;
+}
 
 .productsLists{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
-    list-style: none;
     li{
         list-style: none;
     }
     .imageSeller{
         width: 30%;
     }
+}
+
+.productContainer{
+    width: 50%;
+    height: 70%;
 }
 
 .navBar{
