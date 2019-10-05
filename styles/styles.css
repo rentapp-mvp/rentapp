@@ -1,7 +1,7 @@
 body {
   background: #e9d362;
-  background: -webkit-linear-gradient(left, #D48O3C, #F3E22B);
-  background: linear-gradient(left, #D48O3C, #F3E22B);
+  /* background: -webkit-linear-gradient(to right, #D48O3C, #F3E22B);
+  background: linear-gradient(to right, #D48O3C, #F3E22B);    */
 }
 
 .logo {
