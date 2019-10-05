@@ -1,0 +1,82 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:grey;
+}
+.modal-title{
+    color: rgb(116, 113, 113);
+    margin: 0 10px;
+}
+
+.modal-body{
+    .product{
+        display:flex;
+        flex-direction:row;
+        .info-product{
+            margin: 0 10px;
+            .description{
+                text-align:justify;
+            }
+            .title{
+                margin: 5px 0;
+            }
+            h5{
+                color: #4caf50 !important;
+            }
+            .info-renter{
+                display:flex;
+                flex-direction: row;
+                .ranking{
+                    width:25%;
+                    i{
+                        margin: 0 5px;
+                        color: #D4803C;
+                    }
+                }
+                .name-renter{
+                    color: rgb(116, 113, 113);
+                    i{
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+        .image{
+            margin:10px 10px;
+            img{
+                opacity: 0.5;
+                transition: all 0.2s ease-out;
+                &:hover{
+                    transition: all 0.4s ease-in;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .from-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+        .from-to{
+            margin: 0 10px;
+            p{
+                text-align:center;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                .month{
+                    width: 50%;
+                    border-radius: 2px;
+                    margin: 0 5px;
+                }
+                .date{
+                    width: 20%;
+                    border-radius: 2px;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}
