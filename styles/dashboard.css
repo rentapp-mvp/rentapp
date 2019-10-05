@@ -64,9 +64,15 @@ header {
   margin-left: 5%;
 }
 
+.fa-search {
+  color: #D4803C;
+  font-size: 25px;
+}
+
 .profile {
   border-radius: 50%;
-  width: 10%;
+  width: 5%;
+  margin-left: 6%;
 }
 
 .productContainer {
