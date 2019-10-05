@@ -16,7 +16,7 @@
     <script src="cart.js" type="text/javascript"></script>
     <title>Alquilapp</title>
 </head>
-<body class="container">
+<!-- <body class="container">
         <header>
                 <img src="../styles/images/LOGO-ALQUILAPP.png" alt="" class="logo">
                
@@ -58,8 +58,67 @@
                 <input type="password" maxlength="3" placeholder="CVS" class="cvs inputStyle">
                 <div class="data">
                 <input type="text" placeholder="Nombre del propietario" class="inputStyle">
-                <select><option value="">Dia</option></select> 
-                <select><option value="">Mes</option></select> 
+                <div>
+                    <input placeholder="Mes" class="month">
+                    <input placeholder="Día" class="date">
+                </div> 
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-warning" onclick='succes()'>Pagar</button>
+            </div>
+            </div>
+        </div>
+        </div>
+</body> -->
+<body class="container">
+        <header>
+            <img src="../styles/images/LOGO-ALQUILAPP.png" alt="" class="logo">
+            </header>
+            <nav class="navBar">
+                <a href="#">Imagen</a>
+                <a href="#">Producto</a>
+                <a href="#">Renter</a>
+                <a href="#">Desde</a>
+                <a href="#">Hasta</a>
+                <a href="#">Precio</a>
+                <a href="#">Eliminar</a>
+            </nav>
+            <nav class="cart">
+                    <a href="#"><img  src="../styles/images/taladro.jpg" class="product-image"  alt="taladro"></a>
+                    <a>Taladro</a>
+                    <a href="#">Juan Pie</a>
+                    <a href="#">1/1</a>
+                    <a href="#">2/1</a>
+                    <a href="#">$250</a>
+                    <a href="#"><i class="fas fa-trash-alt"></i></a>
+                </nav>  
+            <div class="buttonPagar">
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Pagar</button>
+            </div>          
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Pago</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="radios">
+                <input type="radio" class="myRadio" name="gender" value="male">Visa<i class="fab fa-cc-visa"></i><br>
+                <input type="radio" class="myRadio" name="gender" value="male">Mastercard<i class="fab fa-cc-mastercard"></i><br>
+                </div>
+                <input type="text" placeholder="Numero de tarjeta" class="inputStyle">
+                <input type="password" maxlength="3" placeholder="CVS" class="cvs inputStyle">
+                <div class="data">
+                <input type="text" placeholder="Nombre del propietario" class="inputStyle">
+                <div>
+                    <input placeholder="Mes" class="month">
+                    <input placeholder="Día" class="date">
+                </div> 
                 </div>
             </div>
             <div class="modal-footer">

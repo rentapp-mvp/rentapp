@@ -1,17 +1,48 @@
 @import "../styles/_reset";
 @import "../styles/_variables";
 
-
 .container{
     margin: 0 auto;
     width: 100%;
     min-width: 400px;
     max-width: 1180px;
   }
-header{
+
+  header{
     display: flex;
     align-items: center;
     align-content: space-around;
+
+    .logo{
+        width: 10%;
+        padding: 2%;
+    }
+
+    .fa-search {
+        color: #D4803C;
+        font-size: 25px;
+      }
+
+      .profile {
+        border-radius: 50%;
+        width: 10%;
+        width: 5%;
+        margin-left: 6%;
+      }
+
+    .search{
+        margin-left: 6%;
+        width: 60%;
+        height: 30%;
+        background-color: #f4f6f6;
+        border: 0;
+        // padding-top: 3%;
+        border-radius: 5px;
+    } 
+
+    .searchFont{
+        margin-left:5%;
+    }
 }
 
 .logo{

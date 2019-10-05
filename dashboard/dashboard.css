@@ -21,6 +21,31 @@ header {
   align-items: center;
   align-content: space-around;
 }
+header .logo {
+  width: 10%;
+  padding: 2%;
+}
+header .fa-search {
+  color: #D4803C;
+  font-size: 25px;
+}
+header .profile {
+  border-radius: 50%;
+  width: 10%;
+  width: 5%;
+  margin-left: 6%;
+}
+header .search {
+  margin-left: 6%;
+  width: 60%;
+  height: 30%;
+  background-color: #f4f6f6;
+  border: 0;
+  border-radius: 5px;
+}
+header .searchFont {
+  margin-left: 5%;
+}
 
 .logo {
   width: 10%;
