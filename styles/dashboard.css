@@ -51,7 +51,7 @@ header {
 }
 
 .search {
-  margin-left: 2%;
+  margin-left: 6%;
   width: 60%;
   height: 30%;
   background-color: #f4f6f6;
@@ -60,31 +60,36 @@ header {
   border-radius: 5px;
 }
 
-.searcFont {
+.searchFont {
   margin-left: 5%;
 }
 
-.productsLists {
+.productsLists ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.productsLists li {
+.productsLists ul li {
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
-.productsLists .imageSeller {
-  width: 30%;
+.productsLists ul .imageSeller {
+  width: 90%;
 }
 
-.productContainer {
-  width: 50%;
-  height: 70%;
+.catTitle {
+  font-size: 30px;
 }
 
 .navBar {
   display: flex;
   justify-content: space-evenly;
-  margin: 5% 0% 0% 15%;
+  align-content: center;
+  margin: 0 0 5% 0;
+  background-color: #F3E22B;
+  border-radius: 15px;
+  width: 100%;
+  padding: 1% 0% 1% 0%;
 }
 
 /*# sourceMappingURL=dashboard.css.map */
