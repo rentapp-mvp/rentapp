@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/dashboard.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Alquilapp</title>
 </head>
 <body class="container">
     <header>
         <img src="styles/images/LOGO-ALQUILAPP.png" alt="" class="logo">
         <input type="text" class="search">
-        <a href="#" class="searchFont">Buscar</a>
+        <a href="#" class="searchFont"><i class="fas fa-search"></i></a>
+        <img src="styles/images/profile.jpg" alt="" class="profile"><span></span>
     </header>
     <nav class="navBar">
         <a href="#">Salud</a>
@@ -25,19 +27,34 @@
                 <p class="catTitle"> Salud</p>
                 <ul>
                     <li>
-                        <img src="styles/images/tensiometro.jpg" alt="" class="imageSeller">
-                        <a href="#">Tensiometro</a>
-                        <p>$70</p>
+                        <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/tensiometro.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Tensiometro</p>
+                            <span>$70<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li>
                     <li>
-                        <img src="styles/images/sillaDeRuedas.jpg" alt="" class="imageSeller">
-                        <a href="#">Silla de ruedas</a>
-                        <p>$200</p>
+                      <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/BalanzaPersonal.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Balanza Personal</p>
+                            <span>$120<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li>
                     <li>
-                        <img src="styles/images/Nebulizador.jpg" alt="" class="imageSeller">
-                        <a href="#">Aromatizador</a>
-                        <p>$50</p>
+                      <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/Nebulizador.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Nebulizador</p>
+                            <span>$80<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li> 
                 </ul>
                 </div>
@@ -47,41 +64,34 @@
                 <p class="catTitle">Jardín</p>
                 <ul>
                     <li>
-                        <img src="styles/images/cortadoraDeCesped.jpg" alt="" class="imageSeller">
-                        <a href="#">Cortadora de cesped</a>
-                        <p>$250</p>
+                      <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/bordeadora.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Bordeadora</p>
+                            <span>$150<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li>
                     <li>
-                        <img src="styles/images/bordeadora.jpg" alt="" class="imageSeller">
-                        <a href="#">Bordeadora</a>
-                        <p>$80</p>
+                      <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/hidrolavadora.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Hidrolavadora</p>
+                            <span>$100<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li>
                     <li>
-                        <img src="styles/images/hidrolavadora.jpg" alt="" class="imageSeller">
-                        <a href="#">Hidrolavadora</a>
-                        <p>$50</p>
-                    </li> 
-                </ul>
-                </div>
-        </div>
-        <div class="productsLists">
-                <div class="productContainer">
-                <p class="catTitle">Hogar</p>
-                <ul>
-                    <li>
-                        <img src="styles/images/calefonelectrico.jpg" alt="" class="imageSeller">
-                        <a href="#">Calefón Eléctrico</a>
-                        <p>$300</p>
-                    </li>
-                    <li>
-                        <img src="styles/images/engrampadora.jpg" alt="" class="imageSeller">
-                        <a href="#">Engrampadora</a>
-                        <p>$40</p>
-                    </li>
-                    <li>
-                        <img src="styles/images/BalanzaPersonal.jpg" alt="" class="imageSeller">
-                        <a href="#">Balanza Personal</a>
-                        <p>$30</p>
+                      <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/cortadoraDeCesped.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>cortadora De Cesped</p>
+                            <span>$70<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li> 
                 </ul>
                 </div>
@@ -91,19 +101,71 @@
                 <p class="catTitle">Cocina</p>
                 <ul>
                     <li>
-                        <img src="styles/images/batidora-vb-7.jpg" alt="" class="imageSeller">
-                        <a href="#">Batidora</a>
-                        <p>$90</p>
+                       <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/licuadora.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Licuadora</p>
+                            <span>$120<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li>
                     <li>
-                        <img src="styles/images/aspiradoraRobot.jpg" alt="" class="imageSeller">
-                        <a href="#">Aspiradora Robot</a>
-                        <p>$200</p>
+                      <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/batidora-vb-7.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Batidora</p>
+                            <span>$50<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li>
                     <li>
-                        <img src="styles/images/licuadora.jpg" alt="" class="imageSeller">
-                        <a href="#">licuadora</a>
-                        <p>$50</p>
+                        <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/minipimer.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Minipimer</p>
+                            <span>$200<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
+                    </li> 
+                </ul>
+                </div>
+        </div>
+        <div class="productsLists">
+                <div class="productContainer">
+                <p class="catTitle">Hogar</p>
+                <ul>
+                    <li>
+                      <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/lukas-ter-poorten-paAJDCYNq-0-unsplash.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Aspiradora</p>
+                            <span>$170<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
+                    </li>
+                    <li>
+                       <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/calefonelectrico.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Ducha Eléctrica</p>
+                            <span>$200<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <div class="imgContainer">
+                            <img src="styles/images/taladro.jpg" alt="" class="imageSeller">
+                        </div>    
+                            <p>Taladro</p>
+                            <span>$200<span></span>
+                        </a>
+                        <a href="#"><span class="more">Ver más</span> </a>
                     </li> 
                 </ul>
                 </div>
