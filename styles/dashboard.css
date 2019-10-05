@@ -64,6 +64,11 @@ header {
   margin-left: 5%;
 }
 
+.profile {
+  border-radius: 45%;
+  width: 20%;
+}
+
 .productContainer {
   margin: 30px 0;
 }
@@ -79,7 +84,7 @@ header {
   padding: 10px;
 }
 .productsLists ul .imageSeller {
-  width: 100%;
+  width: 90%;
   margin-bottom: 5px;
 }
 .productsLists ul a {
