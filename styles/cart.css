@@ -41,29 +41,15 @@ header {
 }
 
 .logo {
-  width: 10%;
+  width: 8%;
   padding: 2%;
-}
-
-.search {
-  margin-left: 6%;
-  width: 60%;
-  height: 30%;
-  background-color: #f4f6f6;
-  border: 0;
-  padding-top: 3%;
-  border-radius: 5px;
-}
-
-.searchFont {
-  margin-left: 5%;
 }
 
 .navBar {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
-  margin: 0 0 5% 0;
+  margin: 0 0 2% 0;
   background-color: #F3E22B;
   border-radius: 15px;
   width: 100%;
@@ -90,8 +76,9 @@ header {
 }
 
 .buttonPagar {
-  padding: 5% 0% 0% 90%;
+  float: right;
   width: 10%;
+  margin: 2% 0;
 }
 
 .pagar {
@@ -99,7 +86,7 @@ header {
   justify-content: space-evenly;
   background-color: #F3E22B;
   border-radius: 15px;
-  padding: 1% 0% 1% 0%;
+  padding: 10% 5%;
 }
 
 a {
